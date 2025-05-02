@@ -79,11 +79,11 @@ function initTypingEffect() {
   const typingElement = document.getElementById("typing-text");
   const phrases = [
     "Technical resources that shaped my approach...",
-    "Articles I reference in my development work... sometimes unnecessarily... ",
-    "Industry insights worth exploring, well this is too serious...",
-    "Resources that inform my engineering decisions...this can work...",
-    "Essential reading for modern developers... very bold claim...",
+    "Articles I reference in my development work...",
+    "Industry insights worth exploring...",
+    "Essential reading for modern developers...",
     "Valuable content for modern developers...",
+    "Resources that inform my engineering decisions... this can work...",
   ];
 
   let phraseIndex = 0;
