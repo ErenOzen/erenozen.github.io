@@ -1,6 +1,7 @@
 # Eren Özen - Personal Portfolio
 
 [![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://erenozen.dev)
+
 This repository contains the source code for my personal portfolio website. The site showcases my projects, skills, and favorite technical articles using a clean, minimalist design with terminal-inspired aesthetics.
 
 ## Features
