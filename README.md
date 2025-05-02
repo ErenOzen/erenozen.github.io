@@ -1,8 +1,6 @@
 # Eren Özen - Personal Portfolio
 
 [![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://erenozen.dev)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-
 This repository contains the source code for my personal portfolio website. The site showcases my projects, skills, and favorite technical articles using a clean, minimalist design with terminal-inspired aesthetics.
 
 ## Features
@@ -28,14 +26,10 @@ This repository contains the source code for my personal portfolio website. The 
 - Fonts: [Space Grotesk](https://fonts.google.com/specimen/Space+Grotesk) and [Ubuntu Mono](https://fonts.google.com/specimen/Ubuntu+Mono) via Google Fonts
 - Design inspiration: Gruvbox color scheme
 
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ## Contact
 
 Feel free to reach out if you have questions or just want to connect:
 
 - Email: eren.ozen@ug.bilkent.edu.tr
-- GitHub: [ErenOzen](https://github.com/erenozen)
 - LinkedIn: [erenozendev](https://linkedin.com/in/erenozendev)
