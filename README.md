@@ -31,5 +31,4 @@ This repository contains the source code for my personal portfolio website. The 
 
 Feel free to reach out if you have questions or just want to connect:
 
-- Email: eren.ozen@ug.bilkent.edu.tr
 - LinkedIn: [erenozendev](https://linkedin.com/in/erenozendev)
