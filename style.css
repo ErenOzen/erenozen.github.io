@@ -293,37 +293,58 @@ h2::after {
     color: var(--secondary-text);
 }
 
-/* Bottom Footer */
+/* ---  Bottom Footer --- */
 .site-footer {
     text-align: center;
     margin: calc(var(--sp) * 1.5) 0;
     font-size: 1rem;
-    color: var(--secondary-text);
-    padding-bottom: 1rem;
+    color: var(--secondary-text); /* Default text color for the footer */
+    padding-bottom: 1rem; /* Ensures some space at the very bottom */
     width: 100%;
     font-weight: 400;
 }
+
+/* Styles for the new main anchor tag (Instagram link) wrapping the footer content */
+.site-footer > a {
+    display: block; /* Make the link a block to be clickable in its entirety */
+    text-decoration: none; /* Remove underline from this wrapper link */
+    color: inherit; /* Text within this link (like "Made with...") will inherit from .site-footer */
+    cursor: pointer; /* Ensure it shows a pointer cursor */
+}
+
+/* Hover effect for the SVG when the main footer link is hovered */
+.site-footer > a:hover .footer-svg {
+    opacity: 1; /* Make SVG fully opaque on hover */
+}
+
 .footer-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 0.5rem;
 }
+
 .footer-svg {
     width: 100%;
     max-width: 400px;
     height: auto;
     opacity: 0.8;
     margin-bottom: 0.5rem;
+    transition: opacity 0.3s ease; /* Smooth transition for hover effect */
 }
-.site-footer a {
-    color: var(--accent);
-    text-decoration: none;
-    font-weight: 600;
+
+/* Styles specifically for the "Source Code" link within the footer */
+.site-footer .footer-content p a {
+    color: var(--accent); /* Specific color for the Source Code link */
+    text-decoration: none; /* No underline by default */
+    font-weight: 600; /* Specific font weight */
 }
-.site-footer a:hover {
-    text-decoration: underline;
+
+/* Hover effect for the "Source Code" link */
+.site-footer .footer-content p a:hover {
+    text-decoration: underline; /* Underline on hover */
 }
+/* --- END MODIFIED Bottom Footer --- */
 
 /* Theme toggle button */
 .theme-toggle {
@@ -357,7 +378,7 @@ h2::after {
     transition: transform 0.5s ease;
 }
 
-/* Add media queries for better mobile support */
+/* media queries for better mobile support */
 @media (max-width: 480px) {
     .hero-title-wrap {
         flex-direction: column;
@@ -391,4 +412,7 @@ a:focus,
 button:focus {
     outline: 2px solid var(--accent);
     outline-offset: 2px;
+}
+
+.site-footer > a:focus {
 }
