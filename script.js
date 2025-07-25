@@ -78,12 +78,12 @@ function getSVGIcon(type) {
 function initTypingEffect() {
   const typingElement = document.getElementById("typing-text");
   const phrases = [
-    "Technical resources that shaped my approach...",
-    "Articles I reference in my development work...",
-    "Industry insights worth exploring...",
-    "Essential reading for modern developers...",
-    "Valuable content for modern developers...",
-    "Resources that inform my engineering decisions... this can work...",
+    "Building a fuzzy finder for programming blogs...",
+    "Until then, these are some of my favorite articles...",
+    "Instantly search thousands of dev articles...",
+    "Your personal search engine for tech content...",
+    "Type a keyword to find what you need...",
+    "Matching your query to the best resources..."
   ];
 
   let phraseIndex = 0;
@@ -127,6 +127,6 @@ function initTypingEffect() {
     setTimeout(type, typingSpeed);
   }
 
-  // Start typing effect with a slight delay for better UX
+  // Start typing effect with a slight delay
   setTimeout(type, 1000);
 }

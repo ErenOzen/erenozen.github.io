@@ -222,6 +222,35 @@ h2::after {
     font-weight: 300;
     letter-spacing: -0.2px;
 }
+
+/* --- Experience --- */
+.experience-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 0.25rem;
+}
+
+.experience-header h3 {
+    margin: 0;
+    font-weight: 500;
+    letter-spacing: -0.3px;
+    font-size: 1.1rem;
+}
+
+.experience-header .company {
+    color: var(--secondary-text);
+    font-weight: 500;
+}
+
+.experience-header .date {
+    margin: 0;
+    font-family: 'Ubuntu Mono', monospace;
+    color: var(--secondary-text); 
+}
+
 /* Skills */
 .skills p {
     color: var(--fg);
@@ -298,23 +327,23 @@ h2::after {
     text-align: center;
     margin: calc(var(--sp) * 1.5) 0;
     font-size: 1rem;
-    color: var(--secondary-text); /* Default text color for the footer */
-    padding-bottom: 1rem; /* Ensures some space at the very bottom */
+    color: var(--secondary-text);
+    padding-bottom: 1rem;
     width: 100%;
     font-weight: 400;
 }
 
 /* Styles for the new main anchor tag (Instagram link) wrapping the footer content */
 .site-footer > a {
-    display: block; /* Make the link a block to be clickable in its entirety */
-    text-decoration: none; /* Remove underline from this wrapper link */
-    color: inherit; /* Text within this link (like "Made with...") will inherit from .site-footer */
-    cursor: pointer; /* Ensure it shows a pointer cursor */
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
 }
 
 /* Hover effect for the SVG when the main footer link is hovered */
 .site-footer > a:hover .footer-svg {
-    opacity: 1; /* Make SVG fully opaque on hover */
+    opacity: 1;
 }
 
 .footer-content {
@@ -330,21 +359,21 @@ h2::after {
     height: auto;
     opacity: 0.8;
     margin-bottom: 0.5rem;
-    transition: opacity 0.3s ease; /* Smooth transition for hover effect */
+    transition: opacity 0.3s ease;
 }
 
-/* Styles specifically for the "Source Code" link within the footer */
+
 .site-footer .footer-content p a {
-    color: var(--accent); /* Specific color for the Source Code link */
-    text-decoration: none; /* No underline by default */
-    font-weight: 600; /* Specific font weight */
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 600;
 }
 
-/* Hover effect for the "Source Code" link */
+
 .site-footer .footer-content p a:hover {
-    text-decoration: underline; /* Underline on hover */
+    text-decoration: underline;
 }
-/* --- END MODIFIED Bottom Footer --- */
+
 
 /* Theme toggle button */
 .theme-toggle {
@@ -378,7 +407,7 @@ h2::after {
     transition: transform 0.5s ease;
 }
 
-/* media queries for better mobile support */
+/* media queries for mobile support */
 @media (max-width: 480px) {
     .hero-title-wrap {
         flex-direction: column;
@@ -407,7 +436,6 @@ h2::after {
     }
 }
 
-/* Better accessibility on focus states */
 a:focus,
 button:focus {
     outline: 2px solid var(--accent);
