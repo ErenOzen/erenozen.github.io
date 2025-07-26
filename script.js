@@ -79,11 +79,11 @@ function initTypingEffect() {
   const typingElement = document.getElementById("typing-text");
   const phrases = [
     "Building a fuzzy finder for programming blogs...",
-    "Until then, these are some of my favorite articles...",
-    "Instantly search thousands of dev articles...",
-    "Your personal search engine for tech content...",
-    "Type a keyword to find what you need...",
-    "Matching your query to the best resources..."
+    "Until then, these are some of my favorite articles..."
+    // "Instantly search thousands of dev articles...",
+    // "Your personal search engine for tech content...",
+    // "Type a keyword to find what you need...",
+    // "Matching your query to the best resources..."
   ];
 
   let phraseIndex = 0;
